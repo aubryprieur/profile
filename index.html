@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Infos</title>
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Roboto" rel="stylesheet">
+    <script src="https://use.fontawesome.com/57f2692dd7.js"></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <!--sidebar-->
+    <div id="sidebar">
+      <ul>
+        <li><a href="#summary"><i class="fa fa-address-card-o fa-2x" aria-hidden="true"></i></a></li>
+        <li><a href="#favorite-movies"><i class="fa fa-file-video-o fa-2x" aria-hidden="true"></i></a></li>
+        <li><a href="#help"><i class="fa fa-binoculars fa-2x" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+    <!--page-content-->
+    <div id="page-content">
+      <!--le profil-->
+      <div class="card" id="summary">
+        <img src="img/profil2.png" alt="profil" id="img_profil">
+        <h1>Aubry Prieur</h1>
+        <h2>Profil</h2>
+        <p>Diplômé d’un Master 2 "Economie de la décision publique" (Lille 1) d'un Master 2 "Management et administration d’entreprise" (IAE Lille) et fullstack Le Wagon. </p>
+      </div>
+      <!--les réseaux sociaux-->
+      <div class="card" >
+        <h2>Réseaux sociaux</h2>
+        <div>
+          <ul class="list-inline">
+            <li>
+              <a href="https://www.facebook.com/permalink.php?id=662866230575970&story_fbid=692395017623091" target="_blank">
+                <i class="fa fa-facebook"></i> Facebook
+              </a>
+            </li>
+            <li>
+              <a href="https://www.linkedin.com/in/aubry-prieur/" target="_blank">
+                <i class="fa fa-linkedin"></i> Linkedin
+              </a>
+            </li>
+            <li>
+              <a href="https://twitter.com/CopasScop" target="_blank">
+                <i class="fa fa-twitter"></i> Twitter
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--table des films-->
+      <div class="card" id="favorite-movies">
+        <h2>Films</h2>
+        <table>
+          <tbody>
+            <tr>
+              <td><img src="img/movie1.jpg" alt="movie 1" class="affiche"></td>
+              <td><h3>VALÉRIAN ET LA CITÉ DES MILLE PLANÈTES</h3>
+                <p>Au 28ème siècle, Valérian et Laureline forment une équipe d'agents spatio-temporels chargés de maintenir l'ordre dans les territoires humains.</p>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="img/movie2.jpg" alt="movie 2" class="affiche"></td>
+              <td><h3>I WISH - FAITES UN VŒU</h3>
+                <p>Pas facile de survivre à l'enfer du lycée, Claire Shannon et ses copines en savent quelque chose.</p>
+              </td>
+            </tr>
+            <tr>
+              <td><img src="img/movie3.jpg" alt="movie 3" class="affiche"></td>
+              <td><h3>MY COUSIN RACHEL</h3>
+                <p>Angleterre, début du XIXème siècle. Philip, un jeune noble anglais, apprend la mort mystérieuse de son cousin en Italie.</p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--footer-->
+      <div class="card footer" id="help">
+        <p>Le 26 juillet 2017 - le wagon</p>
+        <ul class="list-inline">
+          <li><a href="mailto:aubry.prieur@gmail.com"><i class="fa fa-envelope-open-o"></i></a></li>
+          <li><a href="http://www.meteofrance.com/previsions-meteo-france/lille/59000" target="_blank"><i class="fa fa-thermometer-half"></i></a></li>
+          <li><i class="fa fa-registered"></i></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
